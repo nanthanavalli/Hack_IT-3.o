@@ -3,7 +3,8 @@ import styles from "../styles/pages/Domain.module.css";
 
 function Domain() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='domain'>
+      <p className={styles.heading}>Domains</p>
       <div className={styles.domainContainer}>
         <div className={styles.domain}>
         <h3>Artificial Intelligence</h3>
