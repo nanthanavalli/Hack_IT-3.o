@@ -3,6 +3,7 @@ import Domain from "./pages/Domain";
 import Home from './pages/Home';
 import About from './pages/About';
 import Header from './components/Header';
+import Coordinators from './pages/Coordinators';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Home/>
       <About />
+      <Coordinators />
       <Domain />
     </div>
   );
