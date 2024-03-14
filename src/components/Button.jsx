@@ -7,7 +7,7 @@ const Button = () => {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 36 36"
         width="36px"
-        height="55px"
+        height="55px" 
       >
         <rect width="36" height="36" x="0" y="0" fill="#fdd835"></rect>
         <path
