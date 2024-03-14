@@ -3,6 +3,8 @@ import Domain from "./pages/Domain";
 import Home from './pages/Home';
 import About from './pages/About';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import Location from './pages/Location';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Home/>
       <About />
       <Domain />
+      <Location/>
+      <Footer/>
     </div>
   );
 }
