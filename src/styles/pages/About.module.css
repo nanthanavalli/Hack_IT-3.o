@@ -1,85 +1,84 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body{
-    background-color: black;
-}
-
 .container {
-    background-color: black;
-    background-image: url("../../assets/images/stars.jpg");
-    /* overflow: hidden; */
-    /* overflow-x: hidden; */
-    /* position: relative; */
-    /* height: 100%; */
-    /* width: 100%; */
+  margin-top: 9rem;
 }
+
+.heading {
+  font-family: "among us";
+  color: white;
+  text-align: center;
+  font-size: 5vw;
+}
+
 .videoSrc {
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
-.aboutContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: red; */
-    /* width: 60%; */
-    margin: 5vw 15vw;
-    min-height: 50vw;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
+.aboutContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  /* width: 60%; */
+  margin: 0vw 15vw;
+  min-height: 100vh;
+  /* overflow: hidden; */
+  /* position: relative; */
+  /* text-align: center; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
 }
 
-.about{
-    padding: 2vw;
-    border: 1px solid white;
-    min-height: 40vh;
-    backdrop-filter: blur(5px);
-    color: white;
-    border-radius: 10px;
-    display: grid;
-    place-content: center;
+.about {
+  padding: 2vw;
+  border: 1px solid white;
+  min-height: 40vh;
+  backdrop-filter: blur(5px);
+  color: white;
+  border-radius: 10px;
+  display: grid;
+  place-content: center;
 }
-.wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+.about > * {
+  margin: 1rem;
+}
+.wrapper {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
 }
 @media screen and (max-width: 880px) {
-    .wrapper{
-        grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr;
-        
-    }
-
-    .hide{
-        display: none;
-    }
-    .about{
-        padding: 8vw;
-        overflow-y: scroll;
-    }
-    .aboutContainer{
-        min-height:auto;
-        width: 90%;
-        overflow: hidden;
-        margin: 5vw auto;
-    }
-    .videoSrc {
-        /* position: absolute; */
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        overflow: hidden;
-}
+  .wrapper {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+  }
+  .heading {
+    font-size: 10vw;
+  }
+  .hide {
+    display: none;
+  }
+  .about {
+    padding: 8vw;
+    overflow-y: scroll;
+  }
+  .aboutContainer {
+    min-height: auto;
+    width: 90%;
+    overflow: hidden;
+    margin: 5vw auto;
+  }
+  .videoSrc {
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
 }

@@ -3,7 +3,8 @@ import styles from "../styles/pages/About.module.css";
 
 function About() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="about">
+      <p className={styles.heading}>About</p>
       <div className={styles.aboutContainer}>
         <div className={styles.about}>
           <h1 style={{ textAlign: "left" }}>About Mr Cooper</h1>
@@ -29,7 +30,23 @@ function About() {
           </p>
           <div className={styles.wrapper}>
             <div>
-              <h1 style={{ textAlign: "left" }}>About Society</h1>
+              <h1 style={{ textAlign: "left" }}>About AIT</h1>
+              <br />
+              <p style={{ textAlign: "left" }}>
+                The Association of Information Technologists (AIT) is a
+                professional organization that is a student chapter affiliated
+                with the Department of Information Technology. Our forum hosts a
+                range of events including Industry Speaker Series, Virtual Open
+                Days, Course Workshops, and #GRADTALKS Series to connect
+                students with industry experts and showcase talented students.
+                We even provide our students with certifications endorsed by
+                companies that have signed MOUs with the Department of
+                Information Technology.
+              </p>
+            </div>
+            <div>
+              <h1 style={{ textAlign: "left" }}>About CSI</h1>
+              <br />
               <p style={{ textAlign: "left" }}>
                 Computer Society of India(CSI) was established in 1965. It has
                 played a pivotal role in steering the Indian IT industry towards
@@ -43,23 +60,10 @@ function About() {
                   is to foster knowledge sharing among IT professionals and
                   researchers while nurturing the next generation of talent in
                   this dynamic field.
-                  </span>
+                </span>
               </p>
             </div>
-            <div>
-              <h1 style={{ textAlign: "left" }}>About AIT</h1>
-              <p style={{ textAlign: "left" }}>
-                The Association of Information Technologists (AIT) is a
-                professional organization that is a student chapter affiliated
-                with the Department of Information Technology. Our forum hosts a
-                range of events including Industry Speaker Series, Virtual Open
-                Days, Course Workshops, and #GRADTALKS Series to connect
-                students with industry experts and showcase talented students.
-                We even provide our students with certifications endorsed by
-                companies that have signed MOUs with the Department of
-                Information Technology.
-              </p>
-            </div>
+
             <div></div>
           </div>
           <p></p>
@@ -69,5 +73,4 @@ function About() {
   );
 }
 
-export default About;
-
+export default About;

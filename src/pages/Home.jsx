@@ -22,10 +22,11 @@ const Home = () => {
   }, []);
 
   const parallaxStyles = {
-    transform: `translate(-${mouseCoords.x / 150}px, -${mouseCoords.y / 150}px)`,
+    transform: `translate(-${mouseCoords.x / 150}px, -${
+      mouseCoords.y / 150
+    }px)`,
     overflow: "hidden", // Add this line to hide overflow
   };
-  
 
   const bgParallaxStyles = {
     transform: `translate(${mouseCoords.x / 150}px, -${mouseCoords.y / 150}px)`,
@@ -33,16 +34,25 @@ const Home = () => {
   };
 
   return (
-      <div className={styles.home} >
-        <div className={styles.organizers}>
-          <img src={csi} className={styles.csi} alt="" />
-          <img src={ait} className={styles.ait} alt="" />
-          <img src={mrcooper} className={styles.mc} alt="" />
-        </div>
-        <p className={styles.hackit}>HACK IT 3.0</p>
-        <Timer />
-        <img src={characters} className={styles.characters} style={parallaxStyles} alt="" />
+    <div className={styles.home} id="home">
+      <div className={styles.organizers}>
+        <img src={csi} className={styles.csi} alt="" />
+        <img src={ait} className={styles.ait} alt="" />
+        <img src={mrcooper} className={styles.mc} alt="" />
       </div>
+      <p className={styles.hackit}>HACK IT 3.0</p>
+      <div className={styles.details}>
+        <p>24Hrs Hackathon</p>
+        <p>April 1st, 2nd</p>
+      </div>
+      <Timer />
+      <img
+        src={characters}
+        className={styles.characters}
+        style={parallaxStyles}
+        alt=""
+      />
+    </div>
   );
 };
 
