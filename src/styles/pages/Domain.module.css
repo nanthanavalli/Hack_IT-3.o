@@ -1,87 +1,94 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body{
-    background-color: black;
+.heading {
+  font-family: "among us";
+  color: white;
+  text-align: center;
+  font-size: 5vw;
 }
 
 .container {
-    background-color: black;
-    background-image: url("../../assets/images/stars.jpg");
-    /* background-image: url('src/assets/images/stars.jpg'); */
-    /* overflow: hidden; */
-    overflow-x: hidden;
-    position: relative;
-    height: 100%;
-    width: 100%;
+  margin-top: 3rem;
+  /* background-color: black; */
+  /* background-image: url("../../assets/images/stars.jpg"); */
+  /* background-image: url('src/assets/images/stars.jpg'); */
+  /* overflow: hidden; */
+  /* overflow-x: hidden; */
+  /* position: relative; */
+  /* height: 100%; */
+  /* width: 100%; */
 }
 .videoSrc {
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
-.domainContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: red; */
-    /* width: 70%; */
-    margin: 5vw 15vw;
-    min-height: 50vw;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    /* top: 50%;
+.domainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  /* width: 70%; */
+  margin: 5vw 15vw;
+  min-height: 50vw;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  /* top: 50%;
     left: 50%; */
-    /* transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
 }
 
-h3{text-align: left;}
-p{text-align: justify;}
-.domain{
-    padding: 2vw;
-    border: 1px solid white;
-    min-height: 40vh;
-    backdrop-filter: blur(5px);
-    color: white;
-    border-radius: 10px;
-    display: grid;
-    place-content: center;
+h3 {
+  text-align: left;
+  text-decoration: underline;
 }
-.wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+p {
+  text-align: justify;
+}
+.domain {
+  padding: 2vw;
+  border: 1px solid white;
+  min-height: 40vh;
+  backdrop-filter: blur(5px);
+  color: white;
+  border-radius: 10px;
+  display: grid;
+  place-content: center;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 @media screen and (max-width: 880px) {
-    .wrapper{
-        grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr;
-        
-    }
-    .hide{
-        display: none;
-    }
-    .domain{
-        padding: 8vw;
-        overflow-y: scroll;
-    }
-    .domainContainer{
-        background-image: url("../../assets/images/stars.jpg");
-        min-height:auto;
-        width: 90%;
-        overflow: hidden;
-        margin: 5vw auto;
-    }
-    .videoSrc {
-        /* position: absolute; */
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        overflow: hidden;}
+  .wrapper {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+  }
+  .hide {
+    display: none;
+  }
+  .heading {
+    font-size: 10vw;
+  }
+  .domain {
+    padding: 8vw;
+    overflow-y: scroll;
+  }
+  .domainContainer {
+    background-image: url("../../assets/images/stars.jpg");
+    min-height: auto;
+    width: 90%;
+    overflow: hidden;
+    margin: 5vw auto;
+  }
+  .videoSrc {
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
 }
