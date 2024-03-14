@@ -1,20 +1,23 @@
 .location {
   min-height: 85vh;
-  padding-top: 10rem;
+  padding-top: 3rem;
   margin: auto;
-  font-family: "Space Grotesk", sans-serif;
+  
 }
 
 .heading {
-  padding-bottom: 3rem;
-  font-size: 50px;
+  font-family: "among us";
+  color: white;
+  text-align: center;
+  font-size: 5vw;
 }
 
 .flexContainer {
+  font-family: "Space Grotesk", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #503938;
+  border: 1px solid white;
   min-height: 60vh;
   padding: 1%;
   width: 80%;
@@ -25,7 +28,7 @@
 
 .map {
   border-radius: 25px;
-  border: #4d291a 3px solid;
+  border: white 3px solid;
   width: 60%;
   height: 50vh;
 }

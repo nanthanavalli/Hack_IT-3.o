@@ -1,8 +1,8 @@
 import styles from "../styles/components/Header.module.css";
 // import logo from "../assets/images/techLogo.png";
-// import svceLogo from "../assets/images/svcelogo.png";
+import svceLogo from "../assets/images/svcelogo.png";
 import { Link } from "react-scroll";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
 
 function Header() {
@@ -21,7 +21,7 @@ function Header() {
             setIsNavOpen(false);
           }}
         />
-        <nav>
+        <nav >
           <Link smooth={true} offset={-100} to={"home"}>
             Home
           </Link>
@@ -31,15 +31,21 @@ function Header() {
           <Link smooth={true} offset={-100} to={"domain"}>
             Domains
           </Link>
+          <Link smooth={true} offset={-100} to={"coord"}>
+            Coordinators
+          </Link>
+          <Link smooth={true} offset={-100} to={"location"}>
+            Location
+          </Link>
         </nav>
       </div>
       <div className={styles.container}>
-        {/* <section>
-          <Link to={"/"}>
+        <section>
+          {/* <Link to={"/"}>
             <img src={logo} alt="Tech Fest" className={styles.logo} />
-          </Link>
-          <img src={svceLogo} alt="Tech Fest" className={styles.svceLogo} />
-        </section> */}
+          </Link> */}
+          <img src={svceLogo} alt="SVCE Logo" className={styles.svceLogo} />
+        </section>
         <IoMenu
           className={styles.menu}
           onClick={() => {
@@ -55,6 +61,12 @@ function Header() {
           </Link>
           <Link offset={-100} smooth={true} to={"domain"}>
             Domains
+          </Link>
+          <Link offset={-100} smooth={true} to={"coord"}>
+            Cordinators
+          </Link>
+          <Link offset={-100} smooth={true} to={"location"}>
+            Location
           </Link>
         </nav>
       </div>

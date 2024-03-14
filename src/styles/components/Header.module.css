@@ -9,7 +9,7 @@
   justify-content: space-between;
   background-color: rgba(50, 44, 44, 0.258);
   backdrop-filter: blur(1px);
-  border: 1px solid #503938;
+  border: 1px solid rgba(255, 255, 255, 0.24);
   background-color: #0a121a67;
   align-items: center;
   overflow: hidden;
@@ -17,6 +17,20 @@
   z-index: 5;
 }
 
+/* .header_bg
+{
+  border: 1px solid #503938;
+  /* border-radius: 44px; */
+  /* background-color: rgba(50, 44, 44, 0.258);
+  backdrop-filter: blur(10px);
+  transition:all ease-in-out ;
+  border-radius: 0 0 20px 20px;
+} */  
+
+.svceLogo {
+  width: 10vw;
+  margin-left: 2rem;
+}
 .menu {
   display: none;
   height: 2rem;
@@ -79,6 +93,7 @@
 .navDesktop {
   display: flex;
   color: white;
+  margin-left: 30rem;
   justify-content: space-evenly;
   width: 100%;
   & a {

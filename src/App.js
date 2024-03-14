@@ -13,8 +13,8 @@ function App() {
       <Header/>
       <Home/>
       <About />
-      <Coordinators />
       <Domain />
+      <Coordinators />
       <Location/>
       <Footer/>
     </div>
