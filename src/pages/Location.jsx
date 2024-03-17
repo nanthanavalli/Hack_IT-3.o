@@ -6,6 +6,7 @@ const Location = () => {
       <div className={styles.location} id="location">
         <center>
           <p className={styles.heading}>Location</p>
+          <br />
           <div className={styles.flexContainer}>
             <iframe
               title="location"
