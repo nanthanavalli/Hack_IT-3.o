@@ -128,7 +128,8 @@
 
 @media screen and (max-width: 1100px) {
   .container {
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .navDesktop {
@@ -140,7 +141,7 @@
   }
 
   .svceLogo {
-    display: none;
+    width: 35vw;
   }
 
   .menu {

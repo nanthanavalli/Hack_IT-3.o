@@ -2,7 +2,6 @@
   min-height: 85vh;
   padding-top: 3rem;
   margin: auto;
-  
 }
 
 .heading {
@@ -21,7 +20,7 @@
   min-height: 60vh;
   padding: 1%;
   width: 80%;
-  border-radius: 44px;
+  border-radius: 10px;
   background-color: rgba(50, 44, 44, 0.258);
   backdrop-filter: blur(10px);
 }
@@ -43,7 +42,6 @@
   /* color: #4d291a; */
 }
 
-
 .locationDetails > h1 {
   color: white;
   font-size: 40px;
@@ -53,7 +51,6 @@
   padding: 1rem 0 1rem 0;
   font-size: 20px;
 }
-
 
 .routeButton {
   text-decoration: none;
@@ -84,18 +81,21 @@
 }
 
 @media screen and (width < 800px) {
-  .flexContainer{
+  .heading {
+    font-size: 10vw;
+  }
+  .flexContainer {
     display: block;
     margin-bottom: 4rem;
     width: 90%;
   }
-  .buttonContainer{
+  .buttonContainer {
     margin-bottom: 4rem;
   }
-  .locationDetails{
+  .locationDetails {
     margin: 3rem 1rem 0 1rem;
   }
-  .map{
+  .map {
     margin-top: 30px;
     width: 80vw;
   }

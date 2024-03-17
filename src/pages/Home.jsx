@@ -45,6 +45,7 @@ const Home = () => {
       <div className={styles.details}>
         <p className="titles">24Hrs Hackathon</p>
         <p className="titles">April 2nd, 3rd</p>
+        <p className="titles">April 2st, 3rd</p>
       </div>
       <Timer />
       <br />
