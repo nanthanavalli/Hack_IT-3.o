@@ -41,22 +41,20 @@
   backdrop-filter: blur(5px);
   color: white;
   border-radius: 10px;
-  display: grid;
-  place-content: center;
+  /* display: grid; */
 }
 
 .about > * {
   margin: 1rem;
 }
 .wrapper {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  gap: 3rem;
 }
+
 @media screen and (max-width: 880px) {
   .wrapper {
-    grid-template-columns: auto;
-    grid-template-rows: 1fr;
+    display: block;
   }
   .heading {
     font-size: 10vw;
@@ -66,7 +64,6 @@
   }
   .about {
     padding: 8vw;
-    overflow-y: scroll;
   }
   .aboutContainer {
     min-height: auto;
