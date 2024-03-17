@@ -18,11 +18,11 @@ function Coordinators() {
               {/* <br /> */}
               <p style={{ textAlign: "left" }}>
                 Dr. V. M. Sivagami <br/>
-                Assistant Professor/INT
+                Professor/INT
                 <br />
                 <br />
                 Mr. A. Thiyagarajan <br/>
-                Professor/INT
+                Assistant Professor/INT
               </p>
             </div>
             <div>
@@ -43,12 +43,12 @@ function Coordinators() {
             Associate Professor/INT
             <br />
             <br />
-            R. Saktheeswari <br />
+            Ms R. Saktheeswari <br />
             Associate Professor/INT
             <br />
             <br />
             Dr. P. Sharon Femi <br />
-            Associate Professor/INT
+            Assistant Professor/INT
           </p></div>
           </div>
           <p></p>

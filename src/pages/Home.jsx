@@ -44,7 +44,7 @@ const Home = () => {
       <p className={styles.hackit}>HACK IT 3.0</p>
       <div className={styles.details}>
         <p className="titles">24Hrs Hackathon</p>
-        <p className="titles">April 1st, 2nd</p>
+        <p className="titles">April 2nd, 3rd</p>
       </div>
       <Timer />
       <br />
