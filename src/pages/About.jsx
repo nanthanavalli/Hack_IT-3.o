@@ -30,21 +30,6 @@ function About() {
           </p>
           <div className={styles.wrapper}>
             <div>
-              <h1 style={{ textAlign: "left" }}>About AIT</h1>
-              <br />
-              <p style={{ textAlign: "left" }}>
-                The Association of Information Technologists (AIT) is a
-                professional organization that is a student chapter affiliated
-                with the Department of Information Technology. Our forum hosts a
-                range of events including Industry Speaker Series, Virtual Open
-                Days, Course Workshops, and #GRADTALKS Series to connect
-                students with industry experts and showcase talented students.
-                We even provide our students with certifications endorsed by
-                companies that have signed MOUs with the Department of
-                Information Technology.
-              </p>
-            </div>
-            <div>
               <h1 style={{ textAlign: "left" }}>About CSI</h1>
               <br />
               <p style={{ textAlign: "left" }}>
@@ -61,6 +46,21 @@ function About() {
                   researchers while nurturing the next generation of talent in
                   this dynamic field.
                 </span>
+              </p>
+            </div>
+            <div>
+              <h1 style={{ textAlign: "left" }}>About AIT</h1>
+              <br />
+              <p style={{ textAlign: "left" }}>
+                The Association of Information Technologists (AIT) is a
+                professional organization that is a student chapter affiliated
+                with the Department of Information Technology. Our forum hosts a
+                range of events including Industry Speaker Series, Virtual Open
+                Days, Course Workshops, and #GRADTALKS Series to connect
+                students with industry experts and showcase talented students.
+                We even provide our students with certifications endorsed by
+                companies that have signed MOUs with the Department of
+                Information Technology.
               </p>
             </div>
 

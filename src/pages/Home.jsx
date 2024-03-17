@@ -43,8 +43,8 @@ const Home = () => {
       </div>
       <p className={styles.hackit}>HACK IT 3.0</p>
       <div className={styles.details}>
-        <p>24Hrs Hackathon</p>
-        <p>April 1st, 2nd</p>
+        <p className="titles">24Hrs Hackathon</p>
+        <p className="titles">April 1st, 2nd</p>
       </div>
       <Timer />
       <br />

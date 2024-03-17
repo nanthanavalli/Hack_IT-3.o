@@ -10,6 +10,7 @@ function Header() {
 
   return (
     <>
+    
       <div
         className={`${styles.navMobile} ${
           isNavOpen ? styles.open : styles.hide
@@ -21,7 +22,10 @@ function Header() {
             setIsNavOpen(false);
           }}
         />
+        
+        
         <nav >
+        
           <Link smooth={true} offset={-100} to={"home"}>
             Home
           </Link>

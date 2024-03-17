@@ -12,7 +12,7 @@ const Timer = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       const now = new Date().getTime();
-      const futureDate = new Date("2024-03-15").getTime(); // Set your target date here
+      const futureDate = new Date("2024-04-1").getTime(); // Set your target date here
 
       const difference = futureDate - now;
 
