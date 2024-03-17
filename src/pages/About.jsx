@@ -7,8 +7,8 @@ function About() {
       <p className={styles.heading}>About</p>
       <div className={styles.aboutContainer}>
         <div className={styles.about}>
-          <h1 style={{ textAlign: "left" }}>About Mr Cooper</h1>
-          <p style={{ textAlign: "left" }}>
+          <h1>About Mr Cooper</h1>
+          <p style={{ textAlign: "justify" }}>
             Mr. Cooper stands as a prominent figure in the home loan servicing
             sector within the United States offering an extensive array of
             servicing and lending solutions coupled with cutting-edge
@@ -30,9 +30,9 @@ function About() {
           </p>
           <div className={styles.wrapper}>
             <div>
-              <h1 style={{ textAlign: "left" }}>About CSI</h1>
+              <h1>About CSI</h1>
               <br />
-              <p style={{ textAlign: "left" }}>
+              <p style={{ textAlign: "justify" }}>
                 Computer Society of India(CSI) was established in 1965. It has
                 played a pivotal role in steering the Indian IT industry towards
                 success since its inception. With a widespread presence boasting
@@ -49,9 +49,9 @@ function About() {
               </p>
             </div>
             <div>
-              <h1 style={{ textAlign: "left" }}>About AIT</h1>
+              <h1 >About AIT</h1>
               <br />
-              <p style={{ textAlign: "left" }}>
+              <p style={{ textAlign: "justify" }}>
                 The Association of Information Technologists (AIT) is a
                 professional organization that is a student chapter affiliated
                 with the Department of Information Technology. Our forum hosts a
