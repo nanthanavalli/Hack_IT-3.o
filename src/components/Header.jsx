@@ -67,7 +67,7 @@ function Header() {
             Domains
           </Link>
           <Link offset={-100} smooth={true} to={"coord"}>
-            Cordinators
+          Coordinator
           </Link>
           <Link offset={-100} smooth={true} to={"location"}>
             Location

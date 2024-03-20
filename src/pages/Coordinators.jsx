@@ -14,7 +14,7 @@ function Coordinators() {
           </p>
           <div className={styles.wrapper}>
             <div>
-              <h1 style={{ textAlign: "left" }}>AIT Coordinators</h1>
+              <h1 style={{ textAlign: "left" }}>AIT Coordinator</h1>
               {/* <br /> */}
               <p style={{ textAlign: "left" }}>
                 Dr. V. M. Sivagami <br/>
@@ -26,7 +26,7 @@ function Coordinators() {
               </p>
             </div>
             <div>
-              <h1 style={{ textAlign: "left" }}>CSI Coordinators</h1>
+              <h1 style={{ textAlign: "left" }}>CSI Coordinator</h1>
               {/* <br /> */}
               <p style={{ textAlign: "left" }}>
                 Mr. V. Ranjith <br />
@@ -37,7 +37,7 @@ function Coordinators() {
             </div>
 
             <div> 
-            <h1 style={{ textAlign: "left" }}>Event Coordinators</h1>
+            <h1 style={{ textAlign: "left" }}>Event Coordinator</h1>
             <p style={{ textAlign: "left" }}>
             Dr. A. Kala <br />
             Associate Professor/INT
