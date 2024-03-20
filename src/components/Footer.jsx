@@ -60,12 +60,17 @@ const Footer = () => {
             <br />
             <p>
               <IoMail className={styles.contactLogo} />
-              Mail: xyz.svce.ac.in
+              Mail: ait@svce.ac.in, csi@svce.ac.in
             </p>
+            <br />
             <br />
             <p>
               <IoCall className={styles.contactLogo} />
-              Number: 99999 99999
+              Kavitha Ragunathan - CSI Secretary - 93456 03091
+            </p>
+            <p>
+              <IoCall className={styles.contactLogo} />
+              Keerthana M - AIT Secretary - 63839 41381
             </p>
             <br />
             <p className={styles.addressPara}>
