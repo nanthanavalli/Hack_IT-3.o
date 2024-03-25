@@ -6,6 +6,7 @@ import mrcooper from "../assets/images/mr_cooper.png";
 import characters from "../assets/images/characters.png";
 import Timer from "../components/Timer";
 import Button from "../components/Button";
+import Domain from "./Domain";
 
 const Home = () => {
   const [mouseCoords, setMouseCoords] = useState({ x: 0, y: 0 });
@@ -49,6 +50,7 @@ const Home = () => {
       <Timer />
       <br />
       <Button />
+      {/* <Domain/> */}
       {/* <img
         src={characters}
         className={styles.characters}

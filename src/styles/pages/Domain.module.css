@@ -31,7 +31,7 @@
   justify-content: center;
   /* background-color: red; */
   /* width: 70%; */
-  margin:0 15vw 0 15vw;
+  margin: 0 15vw 0 15vw;
   min-height: 50vw;
   overflow: hidden;
   position: relative;
@@ -49,14 +49,24 @@ p {
   text-align: justify;
 }
 .domain {
-  padding: 2vw;
+  /* padding: 2vw;
   border: 1px solid white;
   min-height: 40vh;
   backdrop-filter: blur(5px);
   color: white;
   border-radius: 10px;
   display: grid;
-  place-content: center;
+  place-content: center; */
+  margin: 0 2rem 0rem 2rem;
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: red; */
+  max-width: 80%;
+  margin: auto auto;
+  gap: 30px 40px;
+  font-family: "Space Grotesk", sans-serif;
 }
 .wrapper {
   display: grid;
