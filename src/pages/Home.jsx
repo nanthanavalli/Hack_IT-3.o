@@ -42,10 +42,11 @@ const Home = () => {
         <img src={ait} className={styles.ait} alt="" />
         <img src={mrcooper} className={styles.mc} alt="" />
       </div>
+      <p className={styles.itdept}>Department of Information Technology</p>
       <p className={styles.hackit}>HACK IT 3.0</p>
       <div className={styles.details}>
-        <p className="titles">24Hrs Hackathon</p>
-        <p className="titles">April 2nd, 3rd - 2024</p>
+        <p className={styles.titles}>24Hrs Hackathon</p>
+        <p className={styles.titles}>April 2nd, 3rd - 2024</p>
       </div>
       <Timer />
       <br />

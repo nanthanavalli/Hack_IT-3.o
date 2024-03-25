@@ -17,7 +17,6 @@
   width: 20vw;
   margin-bottom: 1rem;
   font-family: "among us";
-  
 }
 
 .details > * {
@@ -45,7 +44,6 @@
   margin-bottom: 1rem;
 }
 
-
 .ait {
   width: 3vw;
 }
@@ -64,20 +62,33 @@
   font-size: 10vw;
 }
 
+.itdept {
+  font-family: "among us";
+  font-size: 2vw;
+}
+
 .characters {
   /* height: 13vw; */
   width: 50vw;
 }
 
+  /* .titles{
+    padding-left: 1rem;
+  } */
+
 @media screen and (width < 768px) {
   .ait {
     width: 12vw;
+  }
+  .itdept {
+    font-family: "among us";
+    font-size: 5vw;
   }
   .hackit {
     font-size: 18vw;
     margin-bottom: 1rem;
   }
-  .details{
+  .details {
     width: 60%;
   }
   .details > * {
