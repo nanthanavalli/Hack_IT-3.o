@@ -12,14 +12,16 @@
 }
 .blackBackground {
   margin: -2rem;
-  border-radius: 22px;
+  border-radius: 10px;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.433);
+  background-color: rgba(0, 0, 0, 0.761);
   width: 100%;
   height: 100%;
 }
 
-
+.blackBackground > img {
+  border-radius: 10px;
+}
 .know {
   text-align: left;
   position: relative;
@@ -56,7 +58,7 @@
   height: 12px;
 }
 
-@media screen and (width >=531px) and (width<=1023px){
+@media screen and (width >=531px) and (width<=1023px) {
   /* .department:hover {
     transform: scale(1.1);
     border: 2px solid #eb0029;

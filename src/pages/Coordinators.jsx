@@ -44,11 +44,11 @@ function Coordinators() {
             <br />
             <br />
             Ms R. Saktheeswari <br />
-            Associate Professor/INT
+            Assistant Professor/INT
             <br />
             <br />
             Dr. P. Sharon Femi <br />
-            Assistant Professor/INT
+            Associate Professor/INT
           </p></div>
           </div>
           <p></p>
