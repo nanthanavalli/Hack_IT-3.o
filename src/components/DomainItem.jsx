@@ -5,8 +5,16 @@ const DomainItem = (props) => {
   return (
     <div
       className={styles.department}
-      style={{ backgroundImage: `url(${props.image})` }}
+      // style={{ backgroundImage: {} }}
     >
+      <div className={styles.blackBackground}>
+        <img
+          src={props.image}
+          width={"100%"}
+          height={"100%"}
+          alt=""
+        />
+      </div>
       <div className={styles.blackBackground} />
       <div className={styles.nameDiv}>
         <p className={styles.title}>{props.title}</p>
